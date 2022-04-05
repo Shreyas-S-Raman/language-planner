@@ -38,10 +38,11 @@ from sentence_transformers import util as st_utils
 import json
 import pdb
 
+pdb.set_trace()
 GPU = 0
 if torch.cuda.is_available():
     torch.cuda.set_device(GPU)
-OPENAI_KEY = None  # replace this with your OpenAI API key, if you choose to use OpenAI API
+OPENAI_KEY = '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'  # replace this with your OpenAI API key, if you choose to use OpenAI API
 
 
 # ### Define hyperparemeters for plan generation
